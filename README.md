@@ -7,7 +7,7 @@ This document is a collection of the tools and tasks that the lab is interested 
 Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1) and [this](https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30128-8). 
 
 ## Differential expression, co-expression and differential co-expression
-The transcriptome is the all the RNA molecules expressed from the genes of an organism.
+The transcriptome is all the RNA molecules expressed from the genes of an organism.
 ![transcript](imgs/transc.png "trancriptome")
 Generally, three approaches are taken to analyse transcriptional data which include differential expression, co-expression and differential co-expression.
 ![summary](imgs/decoexp.png "decoexp")
