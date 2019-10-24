@@ -8,12 +8,15 @@ Our work centers on characterizing gene networks to understand gene function, ce
 
 ## Differential expression, co-expression and differential co-expression
 The transcriptome is all the RNA molecules expressed from the genes of an organism.
+
 ![transcript](imgs/transc.png "trancriptome")
 
 Generally, three approaches are taken to analyse transcriptional data which include differential expression, co-expression and differential co-expression.
+
 ![summary](imgs/decoexp.png "decoexp")
 
 Co-expression is meant to reflect co-regulation, co-functionality and co-variation. We have shown the utility of co-expression, in particular meta-analytic co-expression, in a variety of applications.
+
 ![summary](imgs/schematic.png "schematic")
 
 ![summary](imgs/netagg.png "aggre")
