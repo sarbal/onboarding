@@ -1,7 +1,12 @@
 # On-boarding
 
 Hello and welcome!  
-This document is a collection of the tools and tasks that the lab is interested in. 
+This document is a collection of the tools and tasks that the lab is interested in.
+
+# Expression, differential expression and co-expression  
+
+![summary](imgs/schematic.png "schematic")
+
 
 # Databases and repositories  
 ## Gene expression data 
