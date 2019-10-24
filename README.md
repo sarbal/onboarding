@@ -21,139 +21,126 @@ Databases for gene expression data in raw and parsed form.
 
 [Allen Brain Atlas](https://portal.brain-map.org/)
 
-[GEMMA](https://gemma.msl.ubc.ca/)
-
 ## Annotations
-GENCODE: https://www.gencodegenes.org/
+[GENCODE](https://www.gencodegenes.org/)
 
-Human: https://www.gencodegenes.org/human/
+[Human](https://www.gencodegenes.org/human/)
 
-Mouse: https://www.gencodegenes.org/mouse/
+[Mouse](https://www.gencodegenes.org/mouse/)
 
-modENCODE (for fly and worm): http://www.modencode.org/ 
+[modENCODE (for fly and worm)](http://www.modencode.org/) 
 
-ENSEMBL: http://useast.ensembl.org/index.html  
+[ENSEMBL](http://useast.ensembl.org/index.html)  
 
-Many species: http://useast.ensembl.org/info/about/species.html
+[Other/all species](http://useast.ensembl.org/info/about/species.html)
 
  
 ## Core datasets 
-GTEx:  https://gtexportal.org/home/
+[GTEx](https://gtexportal.org/home/)
 
-GEUVADIS:  https://www.ebi.ac.uk/Tools/geuvadis-das/
+[GEUVADIS](https://www.ebi.ac.uk/Tools/geuvadis-das/)
 
-ENCODE: https://www.encodeproject.org/ 
+[ENCODE](https://www.encodeproject.org/) 
 
-?? BrainSpan: https://www.brainspan.org/ 
+[BrainSpan](https://www.brainspan.org/) 
 
 ## Processed expression data 
-Recount2: https://jhubiostatistics.shinyapps.io/recount/ 
+[Recount2](https://jhubiostatistics.shinyapps.io/recount/) 
 
-GEMMA: https://gemma.msl.ubc.ca/
+[GEMMA](https://gemma.msl.ubc.ca/)
 
-ARCHS4: https://amp.pharm.mssm.edu/archs4/
+[ARCHS4](https://amp.pharm.mssm.edu/archs4/)
 
 ## Co-expression databases 
-COEXPRESdb:  https://coxpresdb.jp/
+[COEXPRESdb](https://coxpresdb.jp/)
 
-HumanBase: https://hb.flatironinstitute.org/ 
+[HumanBase](https://hb.flatironinstitute.org/)
 
 
-## Ontologies 
-Gene Ontology
-http://geneontology.org/ 
- 
-Related work: 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5389513/
+## Ontologies
+Ontologies have vocabularies (term -> term) and annotation (gene -> term) relationships. Some useful and key ontologies:  
+[Gene Ontology](http://geneontology.org/) 
+Related [work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5389513/). 
 
-Human phenotype ontology (HPO): https://hpo.jax.org/app/
+[Human phenotype ontology (HPO)](https://hpo.jax.org/app/)
 
-Cell http://www.obofoundry.org/ontology/cl.html
+[Cell ontologies](http://www.obofoundry.org/ontology/cl.html)
 
-Experimental factor (EFO) https://www.ebi.ac.uk/efo/
+[Experimental factor (EFO)](https://www.ebi.ac.uk/efo/)
 
-Other 
-https://amp.pharm.mssm.edu/Harmonizome/
-
-https://github.com/OBOFoundry/purl.obolibrary.org/
+Others (and data) can be found here at the [Harmonizome](https://amp.pharm.mssm.edu/Harmonizome/). 
+The [OBO foundry](https://github.com/OBOFoundry/purl.obolibrary.org/) has the standard vocabularies. 
 
 ## Pathways 
-KEGG: https://www.genome.jp/kegg/
+[KEGG](https://www.genome.jp/kegg/)
 
-Reactome:  https://reactome.org/
+[Reactome](https://reactome.org/)
 
-Biocarta: (original site dead, but can be found in other places)  https://amp.pharm.mssm.edu/Harmonizome/dataset/Biocarta+Pathways
+[Biocarta](https://amp.pharm.mssm.edu/Harmonizome/dataset/Biocarta+Pathways). The original site seems to be dead/down. 
 
 
 ## Protein data 
-biogrid: https://thebiogrid.org/ 
+[biogrid](https://thebiogrid.org/) 
 
-STRING: https://string-db.org/
+[STRING](https://string-db.org/)
 
-I2D: http://ophid.utoronto.ca/ophidv2.204/ 
+[I2D](http://ophid.utoronto.ca/ophidv2.204/) 
 
-HIPPIE: http://cbdm-01.zdv.uni-mainz.de/~mschaefer/hippie/ 
+[HIPPIE](http://cbdm-01.zdv.uni-mainz.de/~mschaefer/hippie/)
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210659/ 
+[Interpro](https://www.ebi.ac.uk/interpro/)
 
-https://www.ebi.ac.uk/interpro/
+[HuRI (human reference or CCSB)](http://interactome.baderlab.org/download)
 
-HuRI (human reference or CCSB) http://interactome.baderlab.org/download 
-
-Human Protein Atlas: https://www.proteinatlas.org/
+[Human Protein Atlas](https://www.proteinatlas.org/)
 
 ## Genomic data
-1000 genomes: https://www.internationalgenome.org/
+[1000 genomes](https://www.internationalgenome.org/)
 
-ExAC: http://exac.broadinstitute.org/
+[ExAC](http://exac.broadinstitute.org/)
 
-gnoMAD: https://gnomad.broadinstitute.org/
+[gnoMAD](https://gnomad.broadinstitute.org/)
 
-TOPmed: https://www.nhlbiwgs.org/
-(can be accessed here:) https://bravo.sph.umich.edu/freeze5/hg38/
+[TOPmed](https://www.nhlbiwgs.org/) which can also be accessed [here](https://bravo.sph.umich.edu/freeze5/hg38/). 
 
-dbGAP: https://www.ncbi.nlm.nih.gov/gap/
-
+[dbGAP](https://www.ncbi.nlm.nih.gov/gap/)
 
 ### Key tools
-GATK: https://software.broadinstitute.org/gatk/
+[GATK](https://software.broadinstitute.org/gatk/)
 
-Samtools:  http://www.htslib.org/ 
+[Samtools](http://www.htslib.org/) 
 
-Tabix: http://www.htslib.org/doc/tabix.html
+[Tabix](http://www.htslib.org/doc/tabix.html)
 
-IGVtools: https://software.broadinstitute.org/software/igv/igvtools 
+[IGVtools](https://software.broadinstitute.org/software/igv/igvtools)
 
 
 # Gene expression analysis
 ## Microarray
-https://wiki.bits.vib.be/index.php/Analyze_your_own_microarray_data_in_R/Bioconductor 
+Notes [here](https://wiki.bits.vib.be/index.php/Analyze_your_own_microarray_data_in_R/Bioconductor) 
 
 ## RNA-sequencing 
-https://bioinformatics-core-shared-training.github.io/RNAseq-R/
-
-https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
+Some useful notes [here](https://bioinformatics-core-shared-training.github.io/RNAseq-R/) and [here](https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html)
 
 ### Bulk 
-https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools 
-fastX: http://hannonlab.cshl.edu/fastx_toolkit/ 
-fastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ 
+List of tools [here](https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools) 
+And some others like [fastX](http://hannonlab.cshl.edu/fastx_toolkit/) and [fastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) are good for QC. 
 
 ### Single-cell 
-https://www.scrna-tools.org 
+List of all tools [here](https://www.scrna-tools.org). Some key tools include [Seurat](https://satijalab.org/seurat/) and the [Hemberg lab's course](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html).
 
 ### Other 
-Biojupies https://amp.pharm.mssm.edu/biojupies/ 
+[Biojupies](https://amp.pharm.mssm.edu/biojupies/). 
 
 # Gene set enrichment 
 ## Key tools 
-ermineJ https://erminej.msl.ubc.ca/ 
+[ermineJ](https://erminej.msl.ubc.ca/) 
 
-GSEA http://software.broadinstitute.org/gsea/index.jsp 
+[GSEA](http://software.broadinstitute.org/gsea/index.jsp)
 
-DAVID https://david.ncifcrf.gov/ 
+[DAVID](https://david.ncifcrf.gov/) 
 
-GEO2Enrichr https://amp.pharm.mssm.edu/g2e/
+[GEO2Enrichr](https://amp.pharm.mssm.edu/g2e/)
 
 # Alignment tools 
 ## STAR
