@@ -5,7 +5,7 @@ This document is a collection of the tools and tasks that the lab is interested 
 
 # Gene expression
 ## Differential expression, co-expression and differential co-expression
-<img src="./imgs/schematic.png" width="390" height="450" title="schematic"> 
+<img src="./imgs/schematic.png" width="1234" height="314" title="schematic"> 
 
 ![summary](imgs/schematic.png "schematic")
 
