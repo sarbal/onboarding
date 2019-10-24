@@ -166,6 +166,9 @@ List of all tools [here](https://www.scrna-tools.org). Some key tools include [S
 [GEO2Enrichr](https://amp.pharm.mssm.edu/g2e/)
 
 # Alignment tools 
+
+https://sarbal.github.io/howdoI/workflows/howtos_alignment.html
+
 ## STAR
 Github [here](https://github.com/alexdobin/STAR) and [manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf). 
 Reference [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/) and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/).
