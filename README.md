@@ -7,7 +7,9 @@ This document is a collection of the tools and tasks that the lab is interested 
 Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1) and [this](https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30128-8). 
 
 ## Differential expression, co-expression and differential co-expression
-
+The transcriptome is the all the RNA molecules expressed from the genes of an organism.
+![transcript](imgs/transc.png "trancriptome")
+Generally, three approaches are taken to analyse transcriptional data which include differential expression, co-expression and differential co-expression.
 ![summary](imgs/decoexp.png "decoexp")
 
 Co-expression is meant to reflect co-regulation, co-functionality and co-variation. We have shown the utility of co-expression, in particular meta-analytic co-expression, in a variety of applications.
@@ -144,6 +146,7 @@ And some others like [fastX](http://hannonlab.cshl.edu/fastx_toolkit/) and [fast
 
 ### Single-cell 
 List of all tools [here](https://www.scrna-tools.org). Some key tools include [Seurat](https://satijalab.org/seurat/) and the [Hemberg lab's course](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html).
+![scrnaseq](imgs/scexp.png "single-cell")
 
 ### Other 
 [Biojupies](https://amp.pharm.mssm.edu/biojupies/). 
