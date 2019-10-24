@@ -1,7 +1,42 @@
 # On-boarding
 
-Hello and welcome!  
-This document is a collection of the tools and tasks that the lab is interested in. For a collection of How-to's, see [here](https://sarbal.github.io/howdoI).
+Hello and welcome! 
+This document is a collection of the steps to get setup in the lab, along with some useful tools and tasks that the lab is interested in. For a collection of How-to's, see [here](https://sarbal.github.io/howdoI). Lab reading background can be found [here](https://gillislab.github.io/background/) and publications [here](https://gillislab.github.io/publications/). 
+
+
+# Getting started
+1. Setup your CSHL account (this is given to you in your starting package).
+2. Go to the IT [portal](https://jira.cshl.edu/) and request access to the wiki/confluence. 
+3. Join the Gillis lab slack [channel](https://gillislab.slack.com) and say hi!
+
+## Gillis lab sites 
+- Lab website: [http://gillislab.labsites.cshl.edu](http://gillislab.labsites.cshl.edu)
+- Slack: [https://gillislab.slack.com](https://gillislab.slack.com)
+- Github: [https://github.com/gillislab/](https://github.com/gillislab/)
+
+## CSHL sites 
+- Intranet: [http://intranet.cshl.edu/](http://intranet.cshl.edu/)
+- CSHL email: [https://email.cshl.edu/](https://email.cshl.edu/)
+- IT portal:  [https://jira.cshl.edu/](https://jira.cshl.edu/)
+- Wiki/confluence: [https://wiki.cshl.edu](https://wiki.cshl.edu)
+- Leading strand (meetings videos):	[http://leadingstrand.cshl.edu/](http://leadingstrand.cshl.edu/) 
+- Library:	[http://library.cshl.edu/](http://library.cshl.edu/)
+- Meetings and courses [http://intranet.cshl.edu/education/meetings-courses/meetings-a-courses](http://intranet.cshl.edu/education/meetings-courses/meetings-a-courses)
+- Labwide calendar:	[http://intranetv2.cshl.edu/calendar/](http://intranetv2.cshl.edu/calendar/)
+
+## Servers
+These are the local servers that can only be accessed within the lab (or through a VPN). 
+### Local servers
+- dactyl.cshl.edu
+- tyrone.cshl.edu
+- rugen<1-6>.cshl.edu
+### Web server
+- milton.cshl.edu
+### HPCC 
+Also known as Black and Blue, bnb, "the cluster". There are two development nodes.  
+- bnbdev1.cshl.edu
+- bnbdev2.cshl.edu
+- filezone1.cshl.edu
 
 # Gene expression
 Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1) and [this](https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30128-8). 
@@ -24,6 +59,10 @@ Co-expression is meant to reflect co-regulation, co-functionality and co-variati
 ![perf1](imgs/assess.png "egad") ![perf2](imgs/coexpp.png "performance")
 
 ![graph](imgs/reps.png "graph")
+
+# Biases
+## Multifunctionality 
+
 
 # Databases and repositories  
 ## Gene expression data 
@@ -207,10 +246,13 @@ References [here](https://academic.oup.com/bioinformatics/article/35/3/421/50555
 - Naked mole rats	(Heterocephalus glaber, 10181) at [here](http://www.naked-mole-rat.org/)
 
 
-# Lab reading
-https://gillislab.github.io/publications/
+# Other 
+## Gene function prediction (and others) 
+[CAFA](https://www.biofunctionprediction.org/cafa/) 
 
-https://gillislab.github.io/background/ 
+[DREAM](http://dreamchallenges.org/)
 
+## Meta-science 
+[Meta-research collection](https://collections.plos.org/s/meta-research)
 
 
