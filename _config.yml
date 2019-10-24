@@ -5,7 +5,7 @@ remote_theme: allejo/jekyll-docs-theme
 
 project:
     version: 0.1.0
-    download_url: https://github.com/sarbal/howdoI/
+    download_url: https://github.com/sarbal/onboarding/
 
 license:
     software: MIT License
