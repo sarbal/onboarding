@@ -7,6 +7,9 @@ This document is a collection of the tools and tasks that the lab is interested 
 
 ![summary](imgs/schematic.png "schematic")
 
+![perf](imgs/coexpp.png "performance")
+
+
 
 # Databases and repositories  
 ## Gene expression data 
