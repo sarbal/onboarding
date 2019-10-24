@@ -31,7 +31,7 @@ Databases for gene expression data in raw and parsed form.
 
 [GEO](https://www.ncbi.nlm.nih.gov/geo/) 
 
-[SRA](https://www.ncbi.nlm.nih.gov/sra)
+[SRA](https://www.ncbi.nlm.nih.gov/sra) and human metadata at [metaSRA](http://metasra.biostat.wisc.edu/).
 
 [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
 
