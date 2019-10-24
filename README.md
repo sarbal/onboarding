@@ -144,58 +144,29 @@ List of all tools [here](https://www.scrna-tools.org). Some key tools include [S
 
 # Alignment tools 
 ## STAR
-https://github.com/alexdobin/STAR
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/
-
-https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
+Github [here](https://github.com/alexdobin/STAR) and [manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf). 
+Reference [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/) and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/).
 
 ## Kallisto
-https://pachterlab.github.io/kallisto/
-
-https://www.nature.com/articles/nbt.3519
-
-https://pachterlab.github.io/kallisto/starting
+Github [here](https://pachterlab.github.io/kallisto/) and [tutorial](https://pachterlab.github.io/kallisto/starting). 
+Reference [here](https://www.nature.com/articles/nbt.3519). 
 
 ## Salmon
-https://combine-lab.github.io/salmon/
-
-https://www.nature.com/articles/nmeth.4197
-
-https://combine-lab.github.io/salmon/getting_started/
-
-## Alevin
-https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1670-y
-
-https://salmon.readthedocs.io/en/latest/alevin.html
+Github [here](https://combine-lab.github.io/salmon/) and [manual](https://combine-lab.github.io/salmon/getting_started/). 
+Reference [here](https://www.nature.com/articles/nmeth.4197). The single cell version (Alevin) can be found [here](https://salmon.readthedocs.io/en/latest/alevin.html) and [ref](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1670-y). 
 
 ## Bowtie2
-http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
-
-https://academic.oup.com/bioinformatics/article/35/3/421/5055585
-
-https://www.nature.com/articles/nmeth.1923
-
-https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-3-r25
-
-http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml
+[Source](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) and [manual](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml). 
+References [here](https://academic.oup.com/bioinformatics/article/35/3/421/5055585), [here](https://www.nature.com/articles/nmeth.1923) and [here](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-3-r25). 
 
 
 # Model organisms 
 ## Orthology 
-Homologene: https://www.ncbi.nlm.nih.gov/homologene 
+[Homologene](https://www.ncbi.nlm.nih.gov/homologene)
 
-OrthoDB: https://www.orthodb.org/
+[OrthoDB](https://www.orthodb.org/)
 
-BUSCO genes: https://busco.ezlab.org/  
-
-Papers
-https://www.annualreviews.org/doi/full/10.1146/annurev.genet.39.073003.114725?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC138949/
-
+[BUSCO genes](https://busco.ezlab.org/) 
 
 
 # Lab bits and pieces  
