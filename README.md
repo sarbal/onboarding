@@ -172,7 +172,7 @@ References [here](https://academic.oup.com/bioinformatics/article/35/3/421/50555
 - Mouse (Mus musculus, 10090) at [JAX](http://www.informatics.jax.org/)
 - Yeast	(Saccharomyces cerevisiae,4932) at [yeastgenome](https://www.yeastgenome.org/) or (Schizosaccharomyces pombe, 284812) at [pombase](https://www.pombase.org/)
 - Fly	(Drosophila melanogaster,7227)	at [flybase](https://flybase.org/) 
-- Maize	Zea mays	4577	https://www.maizegdb.org/, or at [ensembl](https://plants.ensembl.org/Zea_mays/Info/Index) 
+- Maize	(Zea mays, 4577) at [maizegdb](https://www.maizegdb.org/), [gramene](http://www.gramene.org/), or at [ensembl](https://plants.ensembl.org/Zea_mays/Info/Index) 
 - Arabidopsis	(Arabidopsis thaliana, 3702) [here](https://www.arabidopsis.org/) or [AtGDB](http://www.plantgdb.org/AtGDB/)
 - Worm (Caenorhabditis elegans,6239) at [wormbase](https://www.wormbase.org/)
 - Zebrafish (Danio rerio, 7955) at [zfin](https://zfin.org/)
