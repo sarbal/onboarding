@@ -9,19 +9,19 @@ Databases for gene expression data in raw and parsed form.
 
 [GEO](https://www.ncbi.nlm.nih.gov/geo/) 
 
-SRA: https://www.ncbi.nlm.nih.gov/sra
+[SRA](https://www.ncbi.nlm.nih.gov/sra)
 
-ArrayExpress: https://www.ebi.ac.uk/arrayexpress/ 
+[ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
 
-ENA: https://www.ebi.ac.uk/ena
+[ENA](https://www.ebi.ac.uk/ena)
 
-Single Cell Expression Atlas: https://www.ebi.ac.uk/gxa/sc/home
+[Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home)
 
-Expression Atlas: https://www.ebi.ac.uk/gxa/home
+[Expression Atlas](https://www.ebi.ac.uk/gxa/home)
 
-Allen Brain Atlas: https://portal.brain-map.org/
+[Allen Brain Atlas](https://portal.brain-map.org/)
 
-GEMMA: https://gemma.msl.ubc.ca/
+[GEMMA](https://gemma.msl.ubc.ca/)
 
 ## Annotations
 GENCODE: https://www.gencodegenes.org/
