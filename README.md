@@ -1,7 +1,7 @@
 # On-boarding
 
 Hello and welcome!  
-This document is a collection of the tools and tasks that the lab is interested in.
+This document is a collection of the tools and tasks that the lab is interested in. For a collection of How-to's, see [here](https://sarbal.github.io/howdoI).
 
 # Gene expression
 Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1) and [this](https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30128-8). 
