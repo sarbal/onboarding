@@ -5,6 +5,8 @@ This document is a collection of the tools and tasks that the lab is interested 
 
 # Gene expression
 ## Differential expression, co-expression and differential co-expression
+![summary](imgs/decoexp.png "decoexp")
+
 ![summary](imgs/schematic.png "schematic")
 
 ![summary](imgs/netagg.png "aggre")
