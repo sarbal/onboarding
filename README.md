@@ -7,7 +7,9 @@ This document is a collection of the tools and tasks that the lab is interested 
 
 ![summary](imgs/schematic.png "schematic")
 
-![perf](imgs/coexpp.png "performance")
+![summary](imgs/netagg.png "aggre")
+
+![perf1](imgs/assess.png "egad") ![perf2](imgs/coexpp.png "performance")
 
 
 
