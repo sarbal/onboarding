@@ -7,7 +7,7 @@ This document is a collection of the tools and tasks that the lab is interested 
 ### Gene expression data 
 Databases for gene expression data in raw and parsed form. 
 
-GEO: https://www.ncbi.nlm.nih.gov/geo/ 
+GEO: (https://www.ncbi.nlm.nih.gov/geo/) 
 
 SRA: https://www.ncbi.nlm.nih.gov/sra
 
@@ -123,6 +123,7 @@ Samtools:  http://www.htslib.org/
 Tabix: http://www.htslib.org/doc/tabix.html
 
 IGVtools: https://software.broadinstitute.org/software/igv/igvtools 
+
 
 ## Gene expression analysis
 ### Microarray
