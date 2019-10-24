@@ -197,7 +197,7 @@ References [here](https://academic.oup.com/bioinformatics/article/35/3/421/50555
 - Naked mole rats	(Heterocephalus glaber, 10181) at [here](http://www.naked-mole-rat.org/)
 
 
-# Lab bits and pieces  
+# Lab reading
 https://gillislab.github.io/publications/
 
 https://gillislab.github.io/background/ 
