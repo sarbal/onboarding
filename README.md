@@ -130,13 +130,7 @@ Co-expression is meant to reflect co-regulation, co-functionality and co-variati
 ## Genomic data and annotations
 [ENSEMBL](http://useast.ensembl.org/index.html). Note, contains data on [multiple species](http://useast.ensembl.org/info/about/species.html). 
 
-[GENCODE](https://www.gencodegenes.org/)
-
-[Human](https://www.gencodegenes.org/human/)
-
-[Mouse](https://www.gencodegenes.org/mouse/)
-
-[modENCODE (for fly and worm)](http://www.modencode.org/) 
+[GENCODE](https://www.gencodegenes.org/), specifically [human](https://www.gencodegenes.org/human/) and [mouse](https://www.gencodegenes.org/mouse/). But [modENCODE (for fly and worm)](http://www.modencode.org/). 
 
 Other types of data (such as sequence, protein, gene IDs) can be accessed from [NCBI refseq](https://www.ncbi.nlm.nih.gov/refseq/) through their [ftp](ftp://ftp.ncbi.nlm.nih.gov/refseq/release/). 
 
