@@ -63,10 +63,6 @@ These data are often represented or thought of as a network, and can include coe
 4. *An algorithm*:
 This is to transfer (or infer) functional labels from the target genes to the previously unlabeled candidate genes.
 
-## Multifunctionality 
-Gene multifunctionality is a pervasive bias in functional genomics. Our work has focused on evaluating how this bias impacts the generation of biologically non-specific results as well as highly fragile significances in a variety of fields.
-
-
 ## Differential expression, co-expression and differential co-expression
 The transcriptome is all the RNA molecules expressed from the genes of an organism.
 
@@ -78,12 +74,16 @@ Generally, three approaches are taken to analyse transcriptional data which incl
 
 Co-expression is meant to reflect co-regulation, co-functionality and co-variation. We have shown the utility of co-expression, in particular meta-analytic co-expression, in a variety of applications.
 
-
 ![summary](imgs/schematic.png "schematic")
 
 ![summary](imgs/netagg.png "aggre")
 
+## Neighbor-voting 
 ![perf1](imgs/assess.png "egad") ![perf2](imgs/coexpp.png "performance")
+
+## Multifunctionality 
+Gene multifunctionality is a pervasive bias in functional genomics. Our work has focused on evaluating how this bias impacts the generation of biologically non-specific results as well as highly fragile significances in a variety of fields.
+![mf](imgs/mf.png "gene mf")
 
 
 # Databases and repositories  
