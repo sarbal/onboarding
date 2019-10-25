@@ -17,12 +17,12 @@ license:
 links:
     header:
       - title: GitHub
-        url: https://github.com/sarbal/howdoI
+        url: https://github.com/sarbal/onboarding
     footer:
       - title: GitHub
-        url: https://github.com/sarbal/howdoI/
+        url: https://github.com/sarbal/onboarding/
       - title: Issues
-        url: https://github.com/sarbal/howdoI/issues?state=open
+        url: https://github.com/sarbal/onboarding/issues?state=open
 
 ui:
     header:
@@ -33,7 +33,7 @@ ui:
 social:
     github:
         user: sarbal
-        repo: howdoI
+        repo: onboarding
     twitter:
         enabled: false
         via:
