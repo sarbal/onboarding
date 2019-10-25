@@ -40,8 +40,28 @@ Also known as Black and Blue, bnb, "the cluster". There are two development node
 - bnbdev2.cshl.edu
 - filezone1.cshl.edu
 
-# Gene expression
-Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1) and [this](https://www.cell.com/trends/genetics/fulltext/S0168-9525(18)30128-8). 
+
+# Gene function prediction
+Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1). 
+
+## Guilt-by-association 
+The guilt by association principle states that genes with similar functions will tend to possess similar properties. This allows previously unknown functions of a gene to be statistically inferred given some prior knowledge about other genes. 
+
+1. *A set of candidate genes*: 
+All genes in the genome or a more focused set such as those in a candidate genetic locus.
+
+2. *One or more target gene groups of interest*:
+Typically defined around a function, such as those from the Gene Ontology (GO).
+
+3. *Data with associations or similarities among the target and candidate genes*:
+These data are often represented or thought of as a network, and can include coexpression, protein interactions, genetic interactions, sequence simlarities, phylogenetic profiles, and phenotype and disease association profiles.
+
+4. *An algorithm*:
+This is to transfer (or infer) functional labels from the target genes to the previously unlabeled candidate genes.
+
+## Multifunctionality 
+Gene multifunctionality is a pervasive bias in functional genomics. Our work has focused on evaluating how this bias impacts the generation of biologically non-specific results as well as highly fragile significances in a variety of fields.
+
 
 ## Differential expression, co-expression and differential co-expression
 The transcriptome is all the RNA molecules expressed from the genes of an organism.
@@ -54,23 +74,17 @@ Generally, three approaches are taken to analyse transcriptional data which incl
 
 Co-expression is meant to reflect co-regulation, co-functionality and co-variation. We have shown the utility of co-expression, in particular meta-analytic co-expression, in a variety of applications.
 
+
 ![summary](imgs/schematic.png "schematic")
 
 ![summary](imgs/netagg.png "aggre")
 
 ![perf1](imgs/assess.png "egad") ![perf2](imgs/coexpp.png "performance")
 
-![graph](imgs/reps.png "graph")
-
-# Biases
-Gene multifunctionality is a pervasive bias in functional genomics. Our work has focused on evaluating how this bias impacts the generation of biologically non-specific results as well as highly fragile significances in a variety of fields.
-## Multifunctionality 
-
 
 # Databases and repositories  
-## Gene expression data 
-Databases for gene expression data in raw and parsed form. 
-
+## Gene expression data
+### Databases  
 [GEO](https://www.ncbi.nlm.nih.gov/geo/) 
 
 [SRA](https://www.ncbi.nlm.nih.gov/sra) and human metadata at [metaSRA](http://metasra.biostat.wisc.edu/).
@@ -85,21 +99,16 @@ Databases for gene expression data in raw and parsed form.
 
 [Allen Brain Atlas](https://portal.brain-map.org/)
 
-## Annotations
-[GENCODE](https://www.gencodegenes.org/)
+### Processed expression data 
+[Recount2](https://jhubiostatistics.shinyapps.io/recount/) 
 
-[Human](https://www.gencodegenes.org/human/)
+[GEMMA](https://gemma.msl.ubc.ca/)
 
-[Mouse](https://www.gencodegenes.org/mouse/)
+[ARCHS4](https://amp.pharm.mssm.edu/archs4/)
 
-[modENCODE (for fly and worm)](http://www.modencode.org/) 
-
-[ENSEMBL](http://useast.ensembl.org/index.html)  
-
-[Other/all species](http://useast.ensembl.org/info/about/species.html)
-
+[Biojupies](https://amp.pharm.mssm.edu/biojupies/). 
  
-## Core datasets 
+### Core datasets 
 [GTEx](https://gtexportal.org/home/)
 
 [GEUVADIS](https://www.ebi.ac.uk/Tools/geuvadis-das/)
@@ -108,18 +117,24 @@ Databases for gene expression data in raw and parsed form.
 
 [BrainSpan](https://www.brainspan.org/) 
 
-## Processed expression data 
-[Recount2](https://jhubiostatistics.shinyapps.io/recount/) 
-
-[GEMMA](https://gemma.msl.ubc.ca/)
-
-[ARCHS4](https://amp.pharm.mssm.edu/archs4/)
-
-## Co-expression databases 
+### Co-expression databases 
 [COEXPRESdb](https://coxpresdb.jp/)
 
 [HumanBase](https://hb.flatironinstitute.org/)
 
+
+## Genomic data and annotations
+[ENSEMBL](http://useast.ensembl.org/index.html). Note, contains data on [multiple species](http://useast.ensembl.org/info/about/species.html). 
+
+[GENCODE](https://www.gencodegenes.org/)
+
+[Human](https://www.gencodegenes.org/human/)
+
+[Mouse](https://www.gencodegenes.org/mouse/)
+
+[modENCODE (for fly and worm)](http://www.modencode.org/) 
+
+Other types of data (such as sequence, protein, gene IDs) can be accessed from [NCBI refseq](https://www.ncbi.nlm.nih.gov/refseq/) through their [ftp](ftp://ftp.ncbi.nlm.nih.gov/refseq/release/). 
 
 ## Ontologies
 Ontologies have vocabularies (term -> term) and annotation (gene -> term) relationships. Some useful and key ontologies:  
@@ -158,7 +173,7 @@ The [OBO foundry](https://github.com/OBOFoundry/purl.obolibrary.org/) has the st
 
 [Human Protein Atlas](https://www.proteinatlas.org/)
 
-## Genomic data
+## Variant data
 [1000 genomes](https://www.internationalgenome.org/)
 
 [ExAC](http://exac.broadinstitute.org/)
@@ -169,18 +184,10 @@ The [OBO foundry](https://github.com/OBOFoundry/purl.obolibrary.org/) has the st
 
 [dbGAP](https://www.ncbi.nlm.nih.gov/gap/)
 
-### Key tools
-[GATK](https://software.broadinstitute.org/gatk/)
 
-[Samtools](http://www.htslib.org/) 
-
-[Tabix](http://www.htslib.org/doc/tabix.html)
-
-[IGVtools](https://software.broadinstitute.org/software/igv/igvtools)
-
-
-# Gene expression analysis
+# Tools and techniques
 ## Microarray
+
 Notes [here](https://wiki.bits.vib.be/index.php/Analyze_your_own_microarray_data_in_R/Bioconductor) 
 
 ## RNA-sequencing 
@@ -191,14 +198,31 @@ List of tools [here](https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatic
 And some others like [fastX](http://hannonlab.cshl.edu/fastx_toolkit/) and [fastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) are good for QC. 
 
 ### Single-cell 
-List of all tools [here](https://www.scrna-tools.org). Some key tools include [Seurat](https://satijalab.org/seurat/) and the [Hemberg lab's course](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html).
+List of all tools [here](https://www.scrna-tools.org). Some key tools include [Seurat](https://satijalab.org/seurat/) and []. Comprehensive tutorials like [Hemberg lab's course](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html) are particulary useful. 
+
 ![scrnaseq](imgs/scexp.png "single-cell")
 
-### Other 
-[Biojupies](https://amp.pharm.mssm.edu/biojupies/). 
+### Alignment tools 
 
-# Gene set enrichment 
-## Key tools 
+https://sarbal.github.io/howdoI/workflows/howtos_alignment.html
+
+#### STAR
+Github [here](https://github.com/alexdobin/STAR) and [manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf). 
+Reference [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/) and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/).
+
+#### Kallisto
+Github [here](https://pachterlab.github.io/kallisto/) and [tutorial](https://pachterlab.github.io/kallisto/starting). 
+Reference [here](https://www.nature.com/articles/nbt.3519). 
+
+#### Salmon
+Github [here](https://combine-lab.github.io/salmon/) and [manual](https://combine-lab.github.io/salmon/getting_started/). 
+Reference [here](https://www.nature.com/articles/nmeth.4197). The single cell version (Alevin) can be found [here](https://salmon.readthedocs.io/en/latest/alevin.html) and [ref](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1670-y). 
+
+#### Bowtie2
+[Source](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) and [manual](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml). 
+References [here](https://academic.oup.com/bioinformatics/article/35/3/421/5055585), [here](https://www.nature.com/articles/nmeth.1923) and [here](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-3-r25). 
+
+## Gene set enrichment tools 
 [ermineJ](https://erminej.msl.ubc.ca/) 
 
 [GSEA](http://software.broadinstitute.org/gsea/index.jsp)
@@ -207,25 +231,18 @@ List of all tools [here](https://www.scrna-tools.org). Some key tools include [S
 
 [GEO2Enrichr](https://amp.pharm.mssm.edu/g2e/)
 
-# Alignment tools 
+## Genomic tools
+[GATK](https://software.broadinstitute.org/gatk/). Also see best practices [workflows](https://software.broadinstitute.org/gatk/best-practices/).
 
-https://sarbal.github.io/howdoI/workflows/howtos_alignment.html
+[Samtools](http://www.htslib.org/) 
 
-## STAR
-Github [here](https://github.com/alexdobin/STAR) and [manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf). 
-Reference [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/) and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/).
+[BEDtools](https://bedtools.readthedocs.io/en/latest/)
 
-## Kallisto
-Github [here](https://pachterlab.github.io/kallisto/) and [tutorial](https://pachterlab.github.io/kallisto/starting). 
-Reference [here](https://www.nature.com/articles/nbt.3519). 
+[Tabix](http://www.htslib.org/doc/tabix.html)
 
-## Salmon
-Github [here](https://combine-lab.github.io/salmon/) and [manual](https://combine-lab.github.io/salmon/getting_started/). 
-Reference [here](https://www.nature.com/articles/nmeth.4197). The single cell version (Alevin) can be found [here](https://salmon.readthedocs.io/en/latest/alevin.html) and [ref](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1670-y). 
-
-## Bowtie2
-[Source](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) and [manual](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml). 
-References [here](https://academic.oup.com/bioinformatics/article/35/3/421/5055585), [here](https://www.nature.com/articles/nmeth.1923) and [here](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-3-r25). 
+[IGVtools](https://software.broadinstitute.org/software/igv/igvtools)
+ 
+UCSC [tools](https://genome.ucsc.edu/util.html). This also hosts genomic data of interest (like cross species alignments).
 
 
 # Model organisms 
@@ -250,7 +267,7 @@ References [here](https://academic.oup.com/bioinformatics/article/35/3/421/50555
 
 
 # Other 
-## Gene function prediction (and others) 
+## Gene function prediction competitions 
 [CAFA](https://www.biofunctionprediction.org/cafa/) 
 
 [DREAM](http://dreamchallenges.org/)
