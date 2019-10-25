@@ -195,9 +195,7 @@ House keeping genes from RNA-seq data [here](https://www.tau.ac.il/~elieis/HKG/)
 Essential and non-essential gene [lists](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3649967/bin/pgen.1003484.s022.xls).[Haploinsufficiency](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2954820/)
 
 Brain lists include [synaptic genes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3465276/), [FMRP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232425/bin/NIHMS314927-supplement-Suppl_Table_S2A-C.xls), [chromatin remodellers](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4010428/). 
-
-## 
-pLI scores
+ 
 
 # Tools and techniques
 ## Microarray
