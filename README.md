@@ -182,6 +182,22 @@ The [OBO foundry](https://github.com/OBOFoundry/purl.obolibrary.org/) has the st
 
 [dbGAP](https://www.ncbi.nlm.nih.gov/gap/)
 
+Gene score lists such as [RVIS](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3749936/bin/pgen.1003709.s002.xlsx) and [pLI](ftp://ftp.broadinstitute.org/pub/ExAC_release/release1/manuscript_data/) are derived from versions of the above. 
+## Gene lists 
+[MSigDB](http://software.broadinstitute.org/gsea/msigdb/index.jsp)
+
+[Imprinted genes](http://igc.otago.ac.nz/home.html) and [here](http://www.geneimprint.com/site/genes-by-species). 
+
+[X-escapers](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3840307/) and [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696107/). 
+
+House keeping genes from RNA-seq data [here](https://www.tau.ac.il/~elieis/HKG/) taken from [this](https://www.ncbi.nlm.nih.gov/pubmed/23810203). Microarray data version [here](https://www.tau.ac.il/~elieis/Housekeeping_genes.html). Newer studies using single-cell data [here](https://www.biorxiv.org/content/10.1101/475426v1.full) and [here](http://dx.doi.org/10.1093/gigascience/giz106).  
+
+Essential and non-essential gene [lists](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3649967/bin/pgen.1003484.s022.xls).[Haploinsufficiency](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2954820/)
+
+Brain lists include [synaptic genes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3465276/), [FMRP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232425/bin/NIHMS314927-supplement-Suppl_Table_S2A-C.xls), [chromatin remodellers](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4010428/). 
+
+## 
+pLI scores
 
 # Tools and techniques
 ## Microarray
