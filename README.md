@@ -210,7 +210,7 @@ List of tools [here](https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatic
 And some others like [fastX](http://hannonlab.cshl.edu/fastx_toolkit/) and [fastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) are good for QC. 
 
 ### Single-cell 
-List of all tools [here](https://www.scrna-tools.org). Some key tools include [Seurat](https://satijalab.org/seurat/) and []. Comprehensive tutorials like [Hemberg lab's course](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html) are particulary useful. 
+List of all tools [here](https://www.scrna-tools.org). Some key tools include [Seurat](https://satijalab.org/seurat/) and [scanpy](https://scanpy.readthedocs.io/en/stable/). Comprehensive tutorials like [Hemberg lab's course](https://scrnaseq-course.cog.sanger.ac.uk/website/index.html) are particulary useful. 
 
 ![scrnaseq](imgs/scexp.png "single-cell")
 
