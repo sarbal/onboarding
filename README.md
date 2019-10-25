@@ -8,6 +8,8 @@ This document is a collection of the steps to get setup in the lab, along with s
 1. Setup your CSHL account (this is given to you in your starting package).
 2. Go to the IT [portal](https://jira.cshl.edu/) and request access to the wiki/confluence. 
 3. Join the Gillis lab slack [channel](https://gillislab.slack.com) and say hi!
+4. Make sure you can connect to the servers listed below. PuTTy, cygwin etc.  
+5. Setup VPN on your laptop or home computer. 
 
 ## Gillis lab sites 
 - Lab website: [http://gillislab.labsites.cshl.edu](http://gillislab.labsites.cshl.edu)
@@ -40,9 +42,11 @@ Also known as Black and Blue, bnb, "the cluster". There are two development node
 - bnbdev2.cshl.edu
 - filezone1.cshl.edu
 
+# What do we do? 
+Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1). 
 
 # Gene function prediction
-Our work centers on characterizing gene networks to understand gene function, cell identity and disease.  We particularly focus on gene networks derived from expression data through the combination of hundreds or thousands of experiments. Some of the issues surrounding network analysis are discussed in this opinion [piece](https://f1000research.com/articles/1-14/v1). 
+An important focus (and challenge) in functional genomics is gene function prediction. 
 
 ## Guilt-by-association 
 The guilt by association principle states that genes with similar functions will tend to possess similar properties. This allows previously unknown functions of a gene to be statistically inferred given some prior knowledge about other genes. 
