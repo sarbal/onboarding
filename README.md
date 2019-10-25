@@ -30,8 +30,10 @@ These are the local servers that can only be accessed within the lab (or through
 - dactyl.cshl.edu
 - tyrone.cshl.edu
 - rugen<1-6>.cshl.edu
+
 ### Web server
 - milton.cshl.edu
+
 ### HPCC 
 Also known as Black and Blue, bnb, "the cluster". There are two development nodes.  
 - bnbdev1.cshl.edu
