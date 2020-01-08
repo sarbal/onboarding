@@ -50,10 +50,9 @@ Co-expression is meant to reflect co-regulation, co-functionality and co-variati
 ![perf1](imgs/assess.png "egad") ![perf2](imgs/coexpp.png "performance")
 
 ## Multifunctionality 
-Gene multifunctionality is a pervasive bias in functional genomics. Our work has focused on evaluating how this bias impacts the generation of biologically non-specific results as well as highly fragile significances in a variety of fields.
-![mf](imgs/mf.png "gene mf")
-
-
+Gene multifunctionality is a pervasive bias in functional genomics. Prior work has focused on evaluating how this bias impacts the generation of biologically non-specific results as well as highly fragile significances in a variety of fields.
+![mf](imgs/mf.png "gene mf") 
+ 
 # Tools and techniques
 ## Microarray
 
