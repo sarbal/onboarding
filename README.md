@@ -10,8 +10,8 @@ Lab reading background can be found [here](https://sarbal.github.io/background/)
 # Getting started
 
 # What do we do? 
-Our work focuses on characterizing gene networks and developing methods to understand gene function and dysfunction in disease.  
-We particularly look to gene networks derived from thousands of expression datasets and samples. 
+Our work focuses on characterizing gene function and developing methods to understand gene function and dysfunction in disease.  
+We particularly look to gene expression and co-expression networks derived from thousands of expression datasets and samples. 
 
 # Functional genomics
 An important focus (and challenge) in functional genomics is gene function prediction and assessment.   
